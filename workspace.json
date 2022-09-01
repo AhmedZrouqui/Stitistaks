@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "stitistaks": "apps/stitistaks",
+    "stitistaks-e2e": "apps/stitistaks-e2e"
+  }
+}
