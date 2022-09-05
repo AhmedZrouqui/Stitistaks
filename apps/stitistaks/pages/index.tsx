@@ -1,11 +1,7 @@
-import styles from './index.module.scss';
 
 export function Index() {
-
-
-
   return (
-    <div>
+    <div className="bg-gray-900 h-screen">
     </div>
   );
 }
