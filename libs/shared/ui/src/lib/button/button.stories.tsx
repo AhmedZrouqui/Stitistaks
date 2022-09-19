@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Button } from './button';
+import { Button } from './index';
 
 export default {
   component: Button,
@@ -13,9 +13,3 @@ export const Primary = Template.bind({});
 Primary.args = {
   label: 'Primary'
 };
-
-export const Secondary = Template.bind({});
-Secondary.args={
-  ...Primary.args,
-  label: 'Secondary'
-}
